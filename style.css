@@ -1,0 +1,108 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background: #c0c0c0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  flex: 0 0 100%;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 70px;
+  font-weight: bolder;
+  background-color: #a29c9c;
+  margin: 0;
+  text-align: center;
+}
+
+li {
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 20px;
+  flex-basis: 100%;
+  background-image: linear-gradient(to bottom, transparent 50%, #808080 50%, #85a4a7 95%);
+  background-size: 100% 200%;
+  background-position: top center;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.25s ease-in-out;
+}
+
+li a {
+  text-decoration: none;
+  color: #646262;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+li:hover {
+  background-position: bottom center;
+  color: white;
+}
+
+ul {
+  background-color: #a29c9c;
+  text-align: center;
+  display: block;
+  list-style-type: none;
+  padding: 0;
+  height: 100%;
+}
+
+.grid {
+  margin: 5px;
+}
+
+.grid-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.grid-item {
+  flex: 1;
+  padding: 12px;
+  flex-basis: 240px;
+}
+
+.work-grid-item {
+  flex: 1;
+  padding: 12px;
+  flex-basis: 240px;
+  text-align: center;
+}
+
+#picture {
+  flex-grow: 1.25;
+}
+
+#aboutme {
+  flex-grow: 1;
+  overflow-y: scroll;
+  height: 450px;
+}
+
+#MSUpic {
+  flex-grow: 1;
+  margin-left: 80px;
+  margin-right: 0;
+}
+
+#educationInfo {
+  flex-grow: 2;
+  overflow-y: scroll;
+  height: 500px;
+}
+
+img {
+  border-radius: 10%;
+}
