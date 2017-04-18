@@ -4,21 +4,22 @@ body {
   background: #c0c0c0;
   margin: 0;
   padding: 0;
+  font-family: "Arial", sans-serif;
 }
 
 header {
   flex: 0 0 100%;
-  font-family: 'Oswald', sans-serif;
   color: white;
   font-size: 70px;
   font-weight: bolder;
   background-color: #a29c9c;
   margin: 0;
+  margin-bottom: -20px;
   text-align: center;
 }
 
-li {
-  margin: 0;
+nav li {
+  margin-bottom: 0;
   text-align: center;
   font-weight: bold;
   font-size: 18px;
@@ -34,22 +35,22 @@ li {
   transition: all 0.25s ease-in-out;
 }
 
-li a {
+nav li a {
   text-decoration: none;
   color: #646262;
 }
 
-li a:hover {
+nav li a:hover {
   text-decoration: none;
   color: white;
 }
 
-li:hover {
+nav li:hover {
   background-position: bottom center;
   color: white;
 }
 
-ul {
+nav ul {
   background-color: #a29c9c;
   text-align: center;
   display: block;
@@ -81,8 +82,28 @@ ul {
   text-align: center;
 }
 
+#mypic {
+  height: auto;
+  width: 100%;
+  max-height: 450px;
+  max-width: 700px;
+}
+
+#logo {
+  height: auto;
+  width: 100%;
+}
+
+#tailgate {
+  height: auto;
+  width: 100%;
+  max-height: 500px;
+  max-width: 400px;
+}
+
 #picture {
   flex-grow: 1.25;
+  margin-top: 20px;
 }
 
 #aboutme {
@@ -93,16 +114,14 @@ ul {
 
 #MSUpic {
   flex-grow: 1;
-  margin-left: 80px;
-  margin-right: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: auto;
+  width: auto;
 }
 
 #educationInfo {
   flex-grow: 2;
   overflow-y: scroll;
   height: 500px;
-}
-
-img {
-  border-radius: 10%;
 }
