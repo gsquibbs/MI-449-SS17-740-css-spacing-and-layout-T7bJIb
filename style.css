@@ -59,6 +59,36 @@ nav ul {
   height: 100%;
 }
 
+.description {
+  font-size: 25px;
+}
+
+.time {
+  font-size: 20px;
+}
+
+.specifics {
+  font-size: 17px;
+}
+
+.welcome {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.introduction {
+  font-size: 20px;
+}
+
+.topic {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.schoolinfo {
+  font-size: 18px;
+}
+
 .grid {
   margin: 5px;
 }
